@@ -126,7 +126,7 @@ nav img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: url(assets/mheader.jpg) content-box;
+  background: url("assets/mheader.jpg") content-box;
   background-position: center;
   border: 1.5px solid #dfe0eb;
   padding: 2px;
