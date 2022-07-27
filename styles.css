@@ -213,3 +213,21 @@ h3 {
   letter-spacing: 0.4px;
   color: #252733;
 }
+
+.notifications {
+  position: relative;
+}
+
+.notifications::after {
+  display: block;
+  box-sizing: content-box;
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: #3751ff;
+  top: 0px;
+  right: 0px;
+  border-radius: 50%;
+  border: 1px solid #f7f8fc;
+}
