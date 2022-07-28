@@ -337,7 +337,7 @@ tbody tr {
   border-bottom: 1.5px solid #dfe0eb;
 }
 
-table tr:hover {
+tbody tr:hover {
   background-color: rgba(55, 81, 255, 0.04);
 }
 
