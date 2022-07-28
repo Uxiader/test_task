@@ -18,7 +18,7 @@
 
 main {
   background: #f7f8fc;
-  flex-basis: 82%;
+  flex-grow: 1;
   padding: 0 32px;
 }
 
@@ -126,7 +126,7 @@ nav img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: url("assets/mheader.jpg") content-box;
+  background: url(assets/images/profilephoto.jpg) content-box;
   background-position: center;
   border: 1.5px solid #dfe0eb;
   padding: 2px;
@@ -182,7 +182,7 @@ nav img {
 }
 
 .users-list {
-  padding: 32px;
+  padding: 32px 0;
   border-radius: 8px;
   background-color: #fff;
   border: 1px solid #dfe0eb;
@@ -194,6 +194,7 @@ nav img {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 48px;
+  padding: 0 32px;
 }
 
 .users-list .sort {
@@ -230,4 +231,143 @@ h3 {
   right: 0px;
   border-radius: 50%;
   border: 1px solid #f7f8fc;
+}
+
+table {
+  width: 100%;
+}
+
+thead {
+  border-bottom: 1.5px solid #dfe0eb;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #9fa2b4;
+}
+
+.table-col {
+  display: flex;
+  padding: 0 32px;
+  gap: 40px;
+  align-items: center;
+}
+
+.table-col > * {
+  flex-basis: 24px;
+}
+
+.table-col > *:nth-child(1) {
+  flex-grow: 42;
+}
+
+.table-col > *:nth-child(2) {
+  flex-grow: 28;
+}
+
+.table-col > *:nth-child(3) {
+  flex-grow: 19;
+}
+
+.table-col > *:nth-child(4) {
+  flex-grow: 11;
+}
+
+/* .table-col > * {
+  flex: 3;
+}
+
+.table-col > *:first-child {
+  flex: 6;
+}
+
+.table-col > *:last-child {
+  flex: 1;
+} */
+
+.head-col {
+  margin-bottom: 12px;
+}
+/* thead tr {
+  display: table-row;
+}
+
+thead tr th {
+  display: table-cell;
+} */
+
+.user-data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+.user-data img {
+  border-radius: 50%;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.user-info-primary {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+
+.user-info-secondary {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #c5c7cd;
+}
+
+.table-col td {
+  padding: 24px 0;
+}
+
+tbody tr {
+  border-bottom: 1.5px solid #dfe0eb;
+}
+
+table tr:hover {
+  background-color: rgba(55, 81, 255, 0.04);
+}
+
+.state {
+  padding: 5px 12px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  justify-self: flex-start;
+  border-radius: 100px;
+}
+
+.high-state {
+  background: #f12b2c;
+}
+
+.normal-state {
+  background: #29cc97;
+}
+
+.low-state {
+  background: #fec400;
+}
+
+. @media (max-width: 750px) {
+  .wrapper > header {
+    display: none;
+  }
 }
