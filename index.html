@@ -11,60 +11,68 @@
   <body>
     <div class="wrapper">
       <header>
-        <div class="logo">
-          <img src="assets/logo.svg" alt="" />
-          <p>Dashboard</p>
-        </div>
+        <section class="site-nav">
+          <div class="logo">
+            <img src="assets/logo.svg" alt="" />
+            <p>Dashboard</p>
+          </div>
 
-        <nav>
-          <ul class="main-nav">
-            <li>
-              <a href=""
-                ><img src="assets/icons/1. overview.svg" alt="" />Overview</a
-              >
-            </li>
-            <li class="active-page">
-              <a href=""
-                ><img src="assets/icons/2. tickets.svg" alt="" />Users</a
-              >
-            </li>
-            <li>
-              <a href=""><img src="assets/icons/3. ideas.svg" alt="" />Ideas</a>
-            </li>
-            <li>
-              <a href=""
-                ><img src="assets/icons/4. contacts.svg" alt="" />Contacts</a
-              >
-            </li>
-            <li>
-              <a href=""
-                ><img src="assets/icons/5. agents.svg" alt="" />Agents</a
-              >
-            </li>
-            <li>
-              <a href=""
-                ><img src="assets/icons/6. articles.svg" alt="" />Articles</a
-              >
-            </li>
-          </ul>
+          <nav>
+            <ul class="main-nav">
+              <li>
+                <a href=""
+                  ><img src="assets/icons/1. overview.svg" alt="" />Overview</a
+                >
+              </li>
+              <li class="active-page">
+                <a href=""
+                  ><img src="assets/icons/2. tickets.svg" alt="" />Users</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img src="assets/icons/3. ideas.svg" alt="" />Ideas</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img src="assets/icons/4. contacts.svg" alt="" />Contacts</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img src="assets/icons/5. agents.svg" alt="" />Agents</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img src="assets/icons/6. articles.svg" alt="" />Articles</a
+                >
+              </li>
+            </ul>
 
-          <ul>
-            <li>
-              <a href=""
-                ><img src="assets/icons/a_1. settings.svg" alt="" />Settings</a
-              >
-            </li>
-            <li>
-              <a href=""
-                ><img
-                  src="assets/icons/a_2. subscription.svg"
-                  alt=""
-                />Subscription</a
-              >
-            </li>
-          </ul>
-        </nav>
+            <ul>
+              <li>
+                <a href=""
+                  ><img
+                    src="assets/icons/a_1. settings.svg"
+                    alt=""
+                  />Settings</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="assets/icons/a_2. subscription.svg"
+                    alt=""
+                  />Subscription</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </section>
       </header>
+
       <main>
         <section class="info">
           <h2>Users</h2>
@@ -365,6 +373,47 @@
               </tr>
             </tbody>
           </table>
+        </section>
+
+        <section class="additional-info">
+          <section class="tickets">
+            <header>
+              <div>
+                <h3>Unresolved tickets</h3>
+                <p>Group: <span class="group-type">Support</span></p>
+              </div>
+              <a href="">View details</a>
+            </header>
+
+            <table>
+              <tr>
+                <td>Waiting on Feature Request</td>
+                <td class="amount-tickets">4238</td>
+              </tr>
+              <tr>
+                <td>Awaiting Customer Response</td>
+                <td class="amount-tickets">1005</td>
+              </tr>
+              <tr>
+                <td>Awaiting Developer Fix</td>
+                <td class="amount-tickets">914</td>
+              </tr>
+              <tr>
+                <td>Pending</td>
+                <td class="amount-tickets">281</td>
+              </tr>
+            </table>
+          </section>
+
+          <section class="tasks">
+            <header>
+              <div>
+                <h3>Tasks</h3>
+                <p>Today</p>
+              </div>
+              <a href="">View all</a>
+            </header>
+          </section>
         </section>
       </main>
     </div>
